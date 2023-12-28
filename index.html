@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>MITS Journal</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"> MITS JOURNAL</div>
+            <div class="navbar">
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="articles-link">Articles & Issues <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown" id="articles-dropdown">
+                        <a href="#">Latest Issue</a>
+                        <a href="#">All Issues</a>
+                        <a href="#">Articles in Press</a>
+                        <a href="#">Special Issues</a>
+                        <a href="#">Collections</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="about-link">About <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown" id="about-dropdown">
+                        <a href="#" onclick="loadContent('aimsAndScope')">Aims and Scope</a>
+                        <a href="#">Editorial Board</a>
+                        <a href="#">Journal Insights</a>
+                        <a href="#">Abstracting & Indexing</a>
+                        <a href="#">Announcements</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="publish-link">Publish <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown" id="publish-dropdown">
+                        <a href="#">Submit Your Article</a>
+                        <a href="#">Guide for Authors</a>
+                        <a href="#">Policies and Guidelines</a>
+                        <a href="#">Open Access Options</a>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-item right">
+                <a href="#" class="nav-link">Submit Your Articles</a>
+            </div>
+            <div class="nav-item right">
+                <a href="#" class="nav-link">Guide for Authors</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="content-section">
+        <div class="container">
+            <!-- Content will be dynamically added here -->
+        </div>
+    </section>
+
+
+    <section id="articles-issues">
+        <div class="container">
+            <!-- Content will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About the Journal: (Aims & Scope)</h2>
+            <div class="flex-grid">
+                <div class="grid-item">
+                    <h3>Article Publishing Charge</h3>
+                    <p>For Open Access</p>
+                    <p>28 days</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Time to First Decision</h3>
+                    <p>65 days</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Review Time</h3>
+                    <p>96 days</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Submission to Acceptance</h3>
+                </div>
+            </div>
+        </div>
+        <div class="grey-space">
+            <!-- Content will be dynamically added here -->
+        </div>
+    </section>
+
+
+    <section id="editor">
+        <div class="container">
+            <h2>Editor in Chief</h2>
+            <div class="editor-info">
+                <div class="circle-icon"></div>
+                <div class="editor-details">
+                    <h3>Dr. Manjaree Pandit</h3>
+                    <p>Madhav Institute of Technology & Science, Gwalior, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

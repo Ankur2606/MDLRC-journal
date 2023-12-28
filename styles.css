@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0; /* Updated padding */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  margin-right: 20px; /* Increased margin for better spacing */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 20px; /* Increased margin for better spacing */
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item:hover .dropdown {
+  display: block; /* Show dropdown on hover */
+}
+
+.search-bar {
+  margin-left: auto;
+}
+
+.search-bar input {
+  padding: 15px; /* Increased padding for a more prominent search bar */
+  width: 300px; /* Adjust the width as needed */
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px; /* Increased margin for better spacing */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#about {
+  background-color: #f2f2f2;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex: 1;
+  padding: 20px;
+}
+
+#editor {
+  background-color: grey;
+  padding: 50px 0;
+}
+
+.circle-icon {
+  width: 100px;
+  height: 100px;
+  background-image: url(images/manjri.png);
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.editor-info {
+  display: flex;
+  align-items: center;
+}
